@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'GOT';
+  src: url(./fonts/Game_of_Thrones.ttf) format('ttf');
+}
+
+.menu-nav {
+  align-items: center;
+  height: 10vh;
+}
+
+.nav {
+  background-color: #121316;
+  padding: 5px 20px;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.logo {
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    filter: invert(100%);
+    margin-top: 0.5rem;
+}
+
+.nav li:hover {
+    border-radius: 5px;
+    background-color: #d5cabe;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.menu-aside,
+.section {
+  display: inline-block;
+  height: 82vh;
+  border-radius: 10px;
+}
+
+.menu-aside {
+  width: 20%;
+  background-color: #434448;
+  height: 90vh;
+}
+
+.menu-aside img {
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 20%;
+}
+
+.img-fig {
+  width: 90%;
+  margin: 1.5rem 0px 1.5rem 1.5rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+  background-color: #121113;
+}
+
+.img-fig h4 {
+    font-size: 1.8rem;
+  color: white;
+  position: absolute;
+  top: 62%;
+  left: 23%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+}
+
+.section {
+  position: absolute;
+  left: 20vw;
+  width: 80vw;
+  padding: 0.5rem;
+  background-color: #d5cabe;
+}
+
+.main-section {
+  text-align: center;
+}
+
+.main-section h2 {
+  font-size: 24px;
+}
+
+.temp {
+  text-align: center;
+}
+
+.temp li {
+  list-style: none;
+  color: #121113;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  font-size: 2rem;
+  font-family: 'got';
+  text-align: center;
+  text-decoration: none;
+  background: gold;
+  width: 240px;
+  height: 130px;
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.temp li div {
+    margin-top: -25px;
+}
+.temp li:nth-child(1) {
+  background-image: url(./images/season\ 1.jpg);
+}
+
+
+.temp li:nth-child(2) {
+  background-image: url(./images/season\ 2.jpg);
+}
+
+.temp li:nth-child(3) {
+  background-image: url(./images/season\ 3.jpg);
+}
+
+.temp li:nth-child(4) {
+  background-image: url(./images/season\ 4.jpg);
+}
+
+.temp li:nth-child(5) {
+  background-image: url(./images/season\ 5.jpg);
+}
+
+.temp li:nth-child(6) {
+  background-image: url(./images/season\ 6.jpg);
+}
+
+.temp li:nth-child(7) {
+  background-image: url(./images/season\ 7.1.jpg);
+}
+
+.temp li:nth-child(8) {
+  background-image: url(./images/season\ 8.jpg);
+}
+
+.footer-contenido {
+  width: 100vw;
+  height: 8vh;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-nav {
+  margin: 10px auto 0;
+  text-align: center;
+  margin-left: 10rem;
+}
+
+.autor {
+  font-size: 2rem;
+  color: white;
+  margin-right: 10rem;
+}
+
+.icon {
+  font-size: 3rem;
+  display: inline;
+  color: white;
+  padding: 20px;
+}
